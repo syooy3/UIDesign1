@@ -7,8 +7,8 @@
 /* adjusting fonts */
 
 body {
-	 background: paleturquoise;
-	 color: hotpink;
+	background: paleturquoise;
+	color: hotpink;
 	font-family: cursive;
 	transition: background 500ms ease;
 }
