@@ -14,14 +14,14 @@ body {
 }
 
 p, li {
-	font-size:  22px;
-	line-height: 30px;
+	font-size:  13px;
+	line-height: 23px;
 }
 
 /* adjusting spacing */
 
 #left-column {
-	padding: 20px;
+	padding: 95px;
 }
 
 h1, p {
@@ -29,7 +29,7 @@ h1, p {
 }
 
 ul, ol {
-	margin-left: 20px;
+	margin-left: 30px;
 }
 
 img {
