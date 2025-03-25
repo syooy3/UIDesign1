@@ -7,9 +7,9 @@
 /* adjusting fonts */
 
 body {
-	 background: turquoise;
-	 color: pink;
-	font-family: sans-serif;
+	background: paleturquoise;
+	color: hotpink;
+	font-family: cursive;
 	transition: background 500ms ease;
 }
 
