@@ -1,0 +1,127 @@
+body {
+	background: #cccccc;
+}
+
+#align {
+	display: flex;
+  align-items: center;
+  justify-content: center;	
+  height: 100vh;
+}
+
+#stage {
+	width: 900px;
+	height: 556px;
+	margin: auto;
+	background: white;
+	position: relative;
+}
+
+#doll {
+	width: 130px;
+  height: 150px;
+  background-color: #ffdc3b;
+  border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	left: 260px;
+}
+
+#face {
+	width: 100px;
+  height: 120px;
+  background-color: #fff5dc;
+  border-radius: 50%;
+	position: absolute;
+	top: 150px;
+	left: 260px;
+}
+
+
+#ramen {
+	border-top: 180px solid red;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 100px;
+	top: 220px;
+	left: 550px;
+	position: absolute;
+	z-index: 2;
+}
+
+#apple {
+	border-top: 90px solid indianred;
+	border-left: 25px solid transparent;
+	border-right: 25px solid transparent;
+	height: 0;
+	width: 80px;
+	top: 300px;
+	left:500px;
+	border-radius: 40% 40% 40% 40%;
+	position: absolute;
+	z-index: 1;
+}
+
+
+#can {
+	width: 80px;
+	height: 230px;
+	background: blue;
+	top: 170px;
+	left: 380px;
+	position: absolute;
+}
+
+.label {
+  position: absolute;
+  top: 200px;
+  left: 420px;
+  writing-mode: vertical-rl;
+  font-size: 30px;
+  color: white;
+}
+
+
+#cup {
+	border-top: 100px solid #a6a6a6;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	width: 70px;
+	top: 310px;
+	left: 425px;
+	border-radius: 10% 10% 0% 0%;
+	position: absolute;
+	z-index: 1;
+
+	/* uncomment for css transitions */
+	/* transition: all 400ms ease; */
+}
+
+/* animations */
+
+/*
+#clip:hover {
+	transform: rotate(1200deg);
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+@keyframes move {
+  from {
+    transform: translateX(0px);
+  }
+  to {
+    transform: translateX(100px);
+  }
+}
+
+*/
